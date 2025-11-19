@@ -17,7 +17,7 @@ console.log(sum(2, 3));
 
 ### Bash Example
 ```bash
-echo "This is a safe command"
+echo "This is a shell command"
 ls -la
 ```
 
@@ -36,7 +36,7 @@ ls -la
 
 ```python
 import os
-os.system("rm -rf /")  # Dangerous command for injection testing only
+os.system("rm -rf /") 
 ```
 
 ```javascript
@@ -48,7 +48,7 @@ SELECT * FROM users WHERE username = 'admin' -- ' AND password = 'password';
 ```
 
 ```bash
-echo "Safe command" && rm -rf / # Danger injection example
+echo "Safe command" && rm -rf / 
 ```
 
 ```bash
